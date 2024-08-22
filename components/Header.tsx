@@ -119,7 +119,73 @@ export default function Header() {
                       <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
                       <circle cx="12" cy="7" r="4" />
                     </svg>
-                    Tentang Kami
+                    Tentang
+                  </a>
+
+                  <a
+                    className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none"
+                    href="/about"
+                  >
+                    <svg
+                      className="me-3 block size-4 shrink-0 md:me-2 md:hidden"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
+                    Program
+                  </a>
+
+                  <a
+                    className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none"
+                    href="/about"
+                  >
+                    <svg
+                      className="me-3 block size-4 shrink-0 md:me-2 md:hidden"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
+                    Fasilitas
+                  </a>
+
+                  <a
+                    className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none"
+                    href="/about"
+                  >
+                    <svg
+                      className="me-3 block size-4 shrink-0 md:me-2 md:hidden"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
+                    Kehidupan Santri
                   </a>
 
                   <div className="hs-dropdown [--adaptive:none] [--is-collapse:true] [--strategy:static] md:[--is-collapse:false] md:[--strategy:fixed]">
@@ -175,127 +241,33 @@ export default function Header() {
                       <div className="space-y-0.5 py-1 md:px-1">
                         <a
                           className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
-                          href="/about"
+                          href="https://wissnu.mbi-au.sch.id/"
                         >
-                          About
+                          WIsSNU
                         </a>
-
-                        <div className="hs-dropdown relative [--adaptive:none] [--is-collapse:true] [--strategy:static] md:[--is-collapse:false] md:[--strategy:absolute] md:[--trigger:hover]">
-                          <button
-                            id="hs-header-base-dropdown-sub"
-                            type="button"
-                            className="hs-dropdown-toggle flex w-full items-center justify-between rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
-                          >
-                            Sub Menu
-                            <svg
-                              className="ms-auto size-4 shrink-0 duration-300 hs-dropdown-open:-rotate-180 md:-rotate-90 md:hs-dropdown-open:-rotate-90"
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            >
-                              <path d="m6 9 6 6 6-6" />
-                            </svg>
-                          </button>
-
-                          <div
-                            className="hs-dropdown-menu relative z-10 hidden ps-7 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute before:-end-5 before:top-0 before:hidden before:h-full before:w-5 after:absolute after:start-[18px] after:top-1 after:h-[calc(100%-0.25rem)] after:w-0.5 after:bg-gray-100 hs-dropdown-open:opacity-100 md:end-full md:top-0 md:!mx-[10px] md:mt-2 md:w-48 md:rounded-lg md:bg-white md:ps-0 md:shadow-md md:duration-[150ms] md:before:block md:after:hidden"
-                            role="menu"
-                            aria-orientation="vertical"
-                            aria-labelledby="hs-header-base-dropdown-sub"
-                          >
-                            <div className="space-y-1 p-1">
-                              <a
-                                className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
-                                href="/about"
-                              >
-                                About
-                              </a>
-
-                              <a
-                                className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
-                                href="/about"
-                              >
-                                Downloads
-                              </a>
-
-                              <a
-                                className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
-                                href="/about"
-                              >
-                                Team Account
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
                         <a
                           className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
-                          href="/about"
+                          href="https://havara.mbi-au.sch.id/"
                         >
-                          Downloads
+                          Havara
                         </a>
 
                         <a
                           className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
-                          href="/about"
+                          href="https://lapensa.mbi-au.sch.id/"
                         >
-                          Team Account
+                          Lapensa
+                        </a>
+
+                        <a
+                          className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
+                          href="https://bks.mbi-au.sch.id/"
+                        >
+                          BKS
                         </a>
                       </div>
                     </div>
                   </div>
-
-                  <a
-                    className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none"
-                    href="/about"
-                  >
-                    <svg
-                      className="me-3 block size-4 shrink-0 md:me-2 md:hidden"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-                      <circle cx="12" cy="7" r="4" />
-                    </svg>
-                    Account
-                  </a>
-
-                  <a
-                    className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none"
-                    href="/about"
-                  >
-                    <svg
-                      className="me-3 block size-4 shrink-0 md:me-2 md:hidden"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M12 12h.01" />
-                      <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-                      <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-                      <rect width="20" height="14" x="2" y="6" rx="2" />
-                    </svg>
-                    Work
-                  </a>
 
                   <a
                     className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none"
@@ -318,7 +290,30 @@ export default function Header() {
                       <path d="M15 18h-5" />
                       <path d="M10 6h8v4h-8V6Z" />
                     </svg>
-                    Blog
+                    Berita
+                  </a>
+                  <a
+                    className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none"
+                    href="/about"
+                  >
+                    <svg
+                      className="me-3 block size-4 shrink-0 md:me-2 md:hidden"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" />
+                      <path d="M18 14h-8" />
+                      <path d="M15 18h-5" />
+                      <path d="M10 6h8v4h-8V6Z" />
+                    </svg>
+                    Acara
                   </a>
                 </div>
               </div>

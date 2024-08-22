@@ -9,9 +9,12 @@ export default function Footer() {
             <Logo size="lg" />
 
             <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              consequuntur amet culpa cum itaque neque.
+              Gabung di MBI, Madrasah Terbaik di Indonesia, dan wujudkan impian
+              akademis serta karir global Anda!
             </p>
+            <span className="block sm:inline font-semibold">
+              #Your<span className="text-emerald-600">Success</span>StartHere
+            </span>
 
             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
@@ -127,9 +130,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Tentang Kami</p>
+              <p className="text-lg font-medium text-gray-900">Tentang</p>
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
@@ -179,7 +182,7 @@ export default function Footer() {
                     className="text-gray-700 transition hover:text-gray-700/75"
                     href="#"
                   >
-                    Wissnu
+                    WIsSNU
                   </a>
                 </li>
 
@@ -207,30 +210,6 @@ export default function Footer() {
                     href="#"
                   >
                     Lapensa
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Alumni</p>
-
-              <ul className="mt-8 space-y-4 text-sm">
-                <li>
-                  <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
-                  >
-                    Pendaftaran
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
-                  >
-                    Beasiswa
                   </a>
                 </li>
               </ul>
