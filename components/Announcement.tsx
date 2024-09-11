@@ -7,7 +7,7 @@ export default function Announcement() {
       <div className="mx-auto max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex">
           <p className="text-white">
-            Penerimaan Peserta Didik Baru Tahun 2025-2026 Telah Dibuka!{" "}
+            Penerimaan Peserta Didik Baru Tahun 2025-2026 Telah Dibuka!
             <a
               className="font-medium underline decoration-2 hover:text-white/80 focus:text-white/80 focus:outline-none"
               href="https://sims.mbi-au.sch.id/psb/psb.php"

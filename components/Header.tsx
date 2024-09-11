@@ -2,15 +2,15 @@ import Logo from "./ui/Logo";
 
 export default function Header() {
   return (
-    <header className=" sticky top-0 z-50 flex w-full flex-wrap border-b border-gray-200 bg-white md:flex-col md:flex-nowrap md:justify-start">
+    <header className="sticky top-0 z-50 flex w-full flex-wrap border-b border-gray-200 bg-white md:flex-col md:flex-nowrap md:justify-start">
       <div className="mx-auto w-full max-w-[85rem] px-4 sm:px-6 lg:px-8">
         <div className="flex flex-1 items-center justify-end gap-x-3 pt-2">
           <div className="flex flex-wrap items-center gap-x-1.5">
             <a
               className="inline-flex items-center rounded-lg border border-gray-200 bg-white px-2.5 py-[7px] text-[12px] font-medium text-gray-800 shadow-sm hover:bg-gray-50 focus:bg-gray-100 focus:outline-none disabled:pointer-events-none disabled:opacity-50"
-              href="https://wa.me/6285604823015"
+              href="https://sims.mbi-au.sch.id/login.php"
             >
-              Hubungi Kami
+              Masuk
             </a>
             <a
               className="inline-flex items-center rounded-lg bg-emerald-600 px-2.5 py-2 text-[12px] font-medium text-white hover:bg-emerald-700 focus:bg-emerald-700 focus:outline-none disabled:pointer-events-none disabled:opacity-50"
@@ -64,7 +64,7 @@ export default function Header() {
               <path d="M18 6 6 18" />
               <path d="m6 6 12 12" />
             </svg>
-            <span className="sr-only">Toggle navigation</span>
+            <span className="sr-only">Navigasi</span>
           </button>
         </div>
 
@@ -264,6 +264,12 @@ export default function Header() {
                           href="https://bks.mbi-au.sch.id/"
                         >
                           BKS
+                        </a>
+                        <a
+                          className="flex items-center rounded-lg p-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none md:px-3"
+                          href="https://ambalan.mbi-au.sch.id/"
+                        >
+                          Ambalan
                         </a>
                       </div>
                     </div>
