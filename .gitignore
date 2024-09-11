@@ -133,3 +133,11 @@ dist
 *.mp4
 *.webm
 *.mkv
+
+# compressed files
+*.zip
+*.tar
+*.gz
+*.xz
+*.br
+*.7z
